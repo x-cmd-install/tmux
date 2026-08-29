@@ -1,0 +1,64 @@
+about:
+  description: tmux source code
+  license: ISC
+  homepage: 
+  head: 40381bd
+  archived: false
+  latestVersion: 3.7c
+  collectedAt: 2026-08-29T07:17:16Z
+timeline:
+  created: 2015-06-03
+  lastCommit: 2026-08-28
+  lastRelease: 2026-08-17
+popularity:
+  star: 48892
+  watcher: 476
+  fork: 2860
+  release: 44
+  contributor: 16
+  pullRequest: 1132
+  issue: 4165
+language:
+  C: 2889068
+  Shell: 612426
+  Roff: 226134
+  Yacc: 36575
+  M4: 27108
+  Awk: 8608
+  Makefile: 6929
+  Pawn: 3135
+  Perl: 1660
+totalLine: 3811643
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 1
+    mergedPR: 2
+    openPR: 7
+    closedIssue: 43
+    openIssue: 9
+    commit: 113
+  last90d:
+    since: 2026-05-31
+    release: 4
+    mergedPR: 23
+    openPR: 13
+    closedIssue: 163
+    openIssue: 16
+    commit: 629
+  last180d:
+    since: 2026-03-02
+    release: 5
+    mergedPR: 34
+    openPR: 13
+    closedIssue: 254
+    openIssue: 17
+    commit: 730
+  last360d:
+    since: 2025-09-03
+    release: 7
+    mergedPR: 36
+    openPR: 14
+    closedIssue: 421
+    openIssue: 18
+    commit: 848
