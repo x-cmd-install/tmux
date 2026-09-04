@@ -7,18 +7,18 @@ about:
   head: 578e07f
   archived: false
   latestVersion: 3.7c
-  collectedAt: 2026-09-04T19:54:37Z
+  collectedAt: 2026-09-04T20:44:55Z
 timeline:
   created: 2015-06-03
   lastCommit: 2026-09-04
   lastRelease: 2026-08-17
 popularity:
-  star: 49059
+  star: 49060
   watcher: 482
-  fork: 2869
+  fork: 2870
   release: 44
   contributor: 16
-  pullRequest: 1181
+  pullRequest: 1182
   issue: 4176
 language:
   C: 2894748
@@ -36,7 +36,7 @@ recent:
     since: 2026-08-05
     release: 1
     mergedPR: 2
-    openPR: 3
+    openPR: 4
     closedIssue: 46
     openIssue: 4
     commit: 115
@@ -44,7 +44,7 @@ recent:
     since: 2026-07-06
     release: 1
     mergedPR: 7
-    openPR: 13
+    openPR: 14
     closedIssue: 96
     openIssue: 7
     commit: 365
@@ -52,7 +52,7 @@ recent:
     since: 2026-06-06
     release: 4
     mergedPR: 22
-    openPR: 13
+    openPR: 14
     closedIssue: 168
     openIssue: 11
     commit: 634
@@ -60,7 +60,7 @@ recent:
     since: 2026-03-08
     release: 5
     mergedPR: 34
-    openPR: 13
+    openPR: 14
     closedIssue: 265
     openIssue: 12
     commit: 758
@@ -68,7 +68,7 @@ recent:
     since: 2025-09-09
     release: 7
     mergedPR: 36
-    openPR: 14
+    openPR: 15
     closedIssue: 433
     openIssue: 13
     commit: 874
@@ -76,18 +76,81 @@ recent:
     since: 2024-09-14
     release: 9
     mergedPR: 36
-    openPR: 14
+    openPR: 15
     closedIssue: 751
     openIssue: 14
     commit: 1822
 total:
   release: 44
   mergedPR: 37
-  openPR: 14
+  openPR: 15
   closedIssue: 4162
   openIssue: 14
   commit: 12094
 ---
+path: /home/runner/.x-repo/github.com/tmux/tmux
+collectedAt: 2026-09-04T20:44:58Z
+loc:
+  C:
+    code: 83855
+    comments: 9153
+    blanks: 12773
+    files: 198
+  Sh:
+    code: 16449
+    comments: 2702
+    blanks: 2886
+    files: 150
+  CHeader:
+    code: 5199
+    comments: 683
+    blanks: 714
+    files: 9
+  Bitbake:
+    code: 1685
+    comments: 2082
+    blanks: 564
+    files: 23
+  Happy:
+    code: 1562
+    comments: 0
+    blanks: 200
+    files: 1
+  AWK:
+    code: 339
+    comments: 24
+    blanks: 7
+    files: 1
+  Automake:
+    code: 249
+    comments: 19
+    blanks: 18
+    files: 1
+  Svg:
+    code: 48
+    comments: 3
+    blanks: 0
+    files: 3
+  Perl:
+    code: 41
+    comments: 13
+    blanks: 9
+    files: 1
+  Markdown:
+    code: 0
+    comments: 170
+    blanks: 65
+    files: 2
+  Text:
+    code: 0
+    comments: 1184
+    blanks: 117
+    files: 5
+total:
+  code: 109427
+  comments: 16033
+  blanks: 17353
+  files: 394
 ---
 date: "2026-08-24"
 repo:
