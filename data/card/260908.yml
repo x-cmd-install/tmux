@@ -5,13 +5,13 @@ about:
   head: d44bfda
   archived: false
   latestVersion: "3.7c"
-  collectedAt: 2026-09-08T03:02:17Z
+  collectedAt: 2026-09-08T05:47:52Z
 timeline:
   created: 2015-06-03
   lastCommit: 2026-09-07
   lastRelease: 2026-08-17
 popularity:
-  star: 49137
+  star: 49141
   watcher: 485
   fork: 2876
   release: 44
@@ -87,7 +87,7 @@ total:
   commit: 12098
 ---
 path: /home/runner/.x-repo/github.com/tmux/tmux
-collectedAt: 2026-09-08T03:02:25Z
+collectedAt: 2026-09-08T05:47:59Z
 loc:
   C:
     code: 83861

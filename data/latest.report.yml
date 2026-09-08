@@ -5,13 +5,13 @@ about:
   head: d44bfda
   archived: false
   latestVersion: "3.7c"
-  collectedAt: 2026-09-08T03:02:17Z
+  collectedAt: 2026-09-08T05:47:52Z
 timeline:
   created: 2015-06-03
   lastCommit: 2026-09-07
   lastRelease: 2026-08-17
 popularity:
-  star: 49137
+  star: 49141
   watcher: 485
   fork: 2876
   release: 44
@@ -87,7 +87,7 @@ total:
   commit: 12098
 ---
 path: /home/runner/.x-repo/github.com/tmux/tmux
-collectedAt: 2026-09-08T03:02:25Z
+collectedAt: 2026-09-08T05:47:59Z
 loc:
   C:
     code: 83861
@@ -247,4 +247,4 @@ checks:
     details:
       - 'Warn: branch protection not enabled for branch ''master'''
 ---
-{"id":371754381,"author":{"login":"nicm","id":304243,"node_id":"MDQ6VXNlcjMwNDI0Mw==","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOAjIUe84WKIWN","tag_name":"3.7c","target_commitish":"master","name":"tmux 3.7c","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-08-17T12:52:12Z","updated_at":"2026-08-17T12:53:48Z","published_at":"2026-08-17T12:53:48Z","assets":[{"id":518107178,"node_id":"RA_kwDOAjIUe84e4bAq","name":"tmux-3.7c.tar.gz","label":null,"uploader":{"login":"nicm","id":304243,"node_id":"MDQ6VXNlcjMwNDI0Mw==","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":789431,"digest":"sha256:7c60cae9a0e25288e2e24750aafc9e8800fc7fd4555e447e1b29ee4201cfb3bf","download_count":20020,"created_at":"2026-08-17T12:53:45Z","updated_at":"2026-08-17T12:53:46Z"}],"body":"This is a bug fix release of tmux 3.7\r\n\r\nFor a list of changes [please read the CHANGES file](https://raw.githubusercontent.com/tmux/tmux/3.7c/CHANGES); for release notes [please see this issue](https://github.com/tmux/tmux/issues/5179)","reactions":{"total_count":61,"+1":20,"-1":0,"laugh":3,"hooray":13,"confused":0,"heart":14,"rocket":11,"eyes":0}}
+{"id":371754381,"author":{"login":"nicm","id":304243,"node_id":"MDQ6VXNlcjMwNDI0Mw==","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOAjIUe84WKIWN","tag_name":"3.7c","target_commitish":"master","name":"tmux 3.7c","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-08-17T12:52:12Z","updated_at":"2026-08-17T12:53:48Z","published_at":"2026-08-17T12:53:48Z","assets":[{"id":518107178,"node_id":"RA_kwDOAjIUe84e4bAq","name":"tmux-3.7c.tar.gz","label":null,"uploader":{"login":"nicm","id":304243,"node_id":"MDQ6VXNlcjMwNDI0Mw==","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":789431,"digest":"sha256:7c60cae9a0e25288e2e24750aafc9e8800fc7fd4555e447e1b29ee4201cfb3bf","download_count":20126,"created_at":"2026-08-17T12:53:45Z","updated_at":"2026-08-17T12:53:46Z"}],"body":"This is a bug fix release of tmux 3.7\r\n\r\nFor a list of changes [please read the CHANGES file](https://raw.githubusercontent.com/tmux/tmux/3.7c/CHANGES); for release notes [please see this issue](https://github.com/tmux/tmux/issues/5179)","reactions":{"total_count":61,"+1":20,"-1":0,"laugh":3,"hooray":13,"confused":0,"heart":14,"rocket":11,"eyes":0}}
