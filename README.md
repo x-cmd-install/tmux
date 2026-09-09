@@ -4,10 +4,10 @@ tmux source code
 
 - **Upstream**: <https://github.com/tmux/tmux>
 - **Homepage**: <>
-- **Latest release**: `3.7c` (2026-08-17)
-- **Last commit**: 2026-09-08
+- **Latest release**: `3.8-rc` (2026-08-17)
+- **Last commit**: 2026-09-09
 - **License**: ISC
-- **Stars**: 49157 · **Forks**: 2877 · **Open issues**: 4180 · **Contributors**: 16
+- **Stars**: 49159 · **Forks**: 2878 · **Open issues**: 4184 · **Contributors**: 16
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/tmux> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T05:55:18Z._
+_Last regenerated: 2026-09-09T20:42:41Z._
