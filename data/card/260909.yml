@@ -2,109 +2,109 @@ about:
   description: "tmux source code"
   license: ISC
   homepage: 
-  head: 7941f7b
+  head: 13c10f6
   archived: false
-  latestVersion: "3.7c"
+  latestVersion: "3.8-rc"
   latestRelease: "3.7c"
-  latestPrerelease: ""
-  collectedAt: 2026-09-09T05:55:10Z
+  latestPrerelease: "3.8-rc"
+  collectedAt: 2026-09-09T20:42:30Z
 timeline:
   created: 2015-06-03
-  lastCommit: 2026-09-08
-  lastVersion: 2026-08-17
+  lastCommit: 2026-09-09
+  lastVersion: 2026-09-09
   lastRelease: 2026-08-17
-  lastPrerelease: 
+  lastPrerelease: 2026-09-09
 popularity:
-  star: 49157
+  star: 49159
   watcher: 485
-  fork: 2877
-  release: 44
+  fork: 2878
+  release: 45
   contributor: 16
-  pullRequest: 1189
-  issue: 4180
+  pullRequest: 1190
+  issue: 4184
 language:
-  C: 2920486
-  Shell: 685080
-  Roff: 227099
+  C: 2941293
+  Shell: 733806
+  Roff: 227539
   Yacc: 36637
   M4: 27108
   Awk: 8608
   Makefile: 6939
   Pawn: 3135
   Perl: 1660
-totalBytes: 3916752
+totalBytes: 3986725
 recent:
   last30d:
     since: 2026-08-10
-    release: 1
+    release: 2
     mergedPR: 0
-    openPR: 8
-    closedIssue: 43
-    openIssue: 6
-    commit: 127
+    openPR: 5
+    closedIssue: 46
+    openIssue: 7
+    commit: 142
   last60d:
     since: 2026-07-11
-    release: 1
+    release: 2
     mergedPR: 4
-    openPR: 18
-    closedIssue: 85
-    openIssue: 9
-    commit: 280
+    openPR: 14
+    closedIssue: 88
+    openIssue: 10
+    commit: 295
   last90d:
     since: 2026-06-11
-    release: 4
+    release: 5
     mergedPR: 15
-    openPR: 18
-    closedIssue: 165
-    openIssue: 12
-    commit: 603
+    openPR: 14
+    closedIssue: 168
+    openIssue: 13
+    commit: 618
   last180d:
     since: 2026-03-13
-    release: 5
+    release: 6
     mergedPR: 34
-    openPR: 18
-    closedIssue: 264
-    openIssue: 14
-    commit: 771
+    openPR: 14
+    closedIssue: 267
+    openIssue: 15
+    commit: 786
   last360d:
     since: 2025-09-14
-    release: 7
+    release: 8
     mergedPR: 36
-    openPR: 19
-    closedIssue: 433
-    openIssue: 15
-    commit: 888
+    openPR: 15
+    closedIssue: 436
+    openIssue: 16
+    commit: 903
   last720d:
     since: 2024-09-19
-    release: 9
+    release: 10
     mergedPR: 36
-    openPR: 19
-    closedIssue: 748
-    openIssue: 16
-    commit: 1832
+    openPR: 15
+    closedIssue: 751
+    openIssue: 17
+    commit: 1847
 total:
-  release: 44
+  release: 45
   mergedPR: 37
-  openPR: 19
-  closedIssue: 4164
-  openIssue: 16
-  commit: 12109
+  openPR: 15
+  closedIssue: 4167
+  openIssue: 17
+  commit: 12124
 ---
 path: /home/runner/.x-repo/github.com/tmux/tmux
-collectedAt: 2026-09-09T05:55:16Z
+collectedAt: 2026-09-09T20:42:38Z
 loc:
   C:
-    code: 84726
-    comments: 9225
-    blanks: 12905
+    code: 85371
+    comments: 9306
+    blanks: 13006
     files: 199
   Sh:
-    code: 16702
-    comments: 2714
-    blanks: 2930
-    files: 153
+    code: 17220
+    comments: 3149
+    blanks: 3078
+    files: 155
   CHeader:
-    code: 5226
+    code: 5227
     comments: 683
     blanks: 715
     files: 9
@@ -149,10 +149,10 @@ loc:
     blanks: 117
     files: 5
 total:
-  code: 110579
-  comments: 16117
-  blanks: 17530
-  files: 398
+  code: 111743
+  comments: 16633
+  blanks: 17779
+  files: 400
 ---
 date: "2026-09-07"
 repo:
