@@ -7,7 +7,7 @@ about:
   latestVersion: "3.8-rc"
   latestRelease: "3.7c"
   latestPrerelease: "3.8-rc"
-  collectedAt: 2026-09-10T18:13:04Z
+  collectedAt: 2026-09-10T21:43:37Z
 timeline:
   created: 2015-06-03
   lastCommit: 2026-09-10
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 2026-08-17
   lastPrerelease: 2026-09-09
 popularity:
-  star: 49173
-  watcher: 485
-  fork: 2881
+  star: 49172
+  watcher: 486
+  fork: 2882
   release: 45
   contributor: 16
   pullRequest: 1190
@@ -91,7 +91,7 @@ total:
   commit: 12127
 ---
 path: /home/runner/.x-repo/github.com/tmux/tmux
-collectedAt: 2026-09-10T18:13:13Z
+collectedAt: 2026-09-10T21:43:45Z
 loc:
   C:
     code: 85384
