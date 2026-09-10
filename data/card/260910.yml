@@ -7,7 +7,7 @@ about:
   latestVersion: "3.8-rc"
   latestRelease: "3.7c"
   latestPrerelease: "3.8-rc"
-  collectedAt: 2026-09-10T21:43:37Z
+  collectedAt: 2026-09-10T22:10:28Z
 timeline:
   created: 2015-06-03
   lastCommit: 2026-09-10
@@ -91,7 +91,7 @@ total:
   commit: 12127
 ---
 path: /home/runner/.x-repo/github.com/tmux/tmux
-collectedAt: 2026-09-10T21:43:45Z
+collectedAt: 2026-09-10T22:10:42Z
 loc:
   C:
     code: 85384
