@@ -47,47 +47,28 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 49,212 · **Forks**: 2,887 · **Open issues**: 4,185 · **Contributors**: 16
+- **Stars**: 49,235 · **Forks**: 2,889 · **Open issues**: 4,186 · **Contributors**: 16
 
 ## Totals (cumulative)
 
-- **Releases**: 45 · **Merged PRs**: 37 · **Open PRs**: 17 · **Closed issues**: 4170 · **Open issues**: 15 · **Commits**: 12135
+- **Releases**: 45 · **Merged PRs**: 37 · **Open PRs**: 18 · **Closed issues**: 4170 · **Open issues**: 16 · **Commits**: 12135
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 2 | 0 | 7 | 42 | 5 | 115 |
-| last60d | 2026-07-15 | 2 | 3 | 15 | 83 | 8 | 249 |
-| 90d | 2026-06-15 | 5 | 13 | 16 | 156 | 8 | 584 |
-| last180d | 2026-03-17 | 6 | 34 | 16 | 269 | 13 | 793 |
-| 360d | 2025-09-18 | 8 | 36 | 17 | 439 | 14 | 914 |
-| last720d | 2024-09-23 | 10 | 36 | 17 | 753 | 15 | 1858 |
+| 30d | 2026-08-15 | 2 | 0 | 8 | 41 | 6 | 115 |
+| last60d | 2026-07-16 | 2 | 3 | 15 | 79 | 9 | 249 |
+| 90d | 2026-06-16 | 5 | 11 | 17 | 153 | 9 | 584 |
+| last180d | 2026-03-18 | 6 | 33 | 17 | 267 | 14 | 793 |
+| 360d | 2025-09-19 | 8 | 36 | 18 | 439 | 15 | 914 |
+| last720d | 2024-09-24 | 10 | 36 | 18 | 752 | 16 | 1858 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [tmux-3.7c.tar.gz](https://github.com/tmux/tmux/releases/download/3.7c/tmux-3.7c.tar.gz) | 770.9 KiB | `native/unknown` |
-
-## Distribution status
-
-Reported by **245** distros on [repology.org](https://repology.org/project/tmux). **42** are ✅ on the latest upstream release, **159** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.7c` | ✅ latest |
-| Debian 14 | `3.7c` | ✅ latest |
-| Debian 13 | `3.5a` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.6a` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.4` | ⚠️ outdated |
-| Arch | `3.7_c` | ⚠️ outdated |
-| Homebrew | `3.7c` | ✅ latest |
-| Fedora rawhide | `3.7c` | ✅ latest |
-| Nix unstable | `3.7c` | ✅ latest |
-| Void | `3.7c` | ✅ latest |
-| Alpine edge | `3.7c` | ✅ latest |
-| openSUSE Tumbleweed | `3.7b` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -98,4 +79,4 @@ Install metadata for tmux lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:00:07Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:14:30Z._
