@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 49,257 · **Forks**: 2,889 · **Open issues**: 4,188 · **Contributors**: 16
+- **Stars**: 49,284 · **Forks**: 2,891 · **Open issues**: 4,191 · **Contributors**: 16
 
 ## Totals (cumulative)
 
-- **Releases**: 45 · **Merged PRs**: 37 · **Open PRs**: 19 · **Closed issues**: 4170 · **Open issues**: 18 · **Commits**: 12135
+- **Releases**: 45 · **Merged PRs**: 37 · **Open PRs**: 19 · **Closed issues**: 4170 · **Open issues**: 21 · **Commits**: 12135
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 2 | 0 | 9 | 40 | 8 | 115 |
-| last60d | 2026-07-17 | 2 | 3 | 16 | 79 | 10 | 249 |
-| 90d | 2026-06-17 | 5 | 10 | 18 | 152 | 11 | 584 |
-| last180d | 2026-03-19 | 6 | 33 | 18 | 267 | 16 | 793 |
-| 360d | 2025-09-20 | 8 | 36 | 19 | 438 | 17 | 914 |
-| last720d | 2024-09-25 | 10 | 36 | 19 | 752 | 18 | 1858 |
+| 30d | 2026-08-17 | 2 | 0 | 9 | 40 | 11 | 115 |
+| last60d | 2026-07-18 | 2 | 3 | 16 | 79 | 13 | 249 |
+| 90d | 2026-06-18 | 5 | 9 | 18 | 149 | 14 | 584 |
+| last180d | 2026-03-20 | 6 | 33 | 18 | 266 | 19 | 793 |
+| 360d | 2025-09-21 | 8 | 36 | 19 | 437 | 20 | 914 |
+| last720d | 2024-09-26 | 10 | 36 | 19 | 752 | 21 | 1858 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for tmux lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T06:22:12Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T06:26:21Z._
