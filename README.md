@@ -4,7 +4,7 @@
 
 tmux source code
 
-![tmux](https://repo.x-cmd.io/tmux.svg)
+[![x-cmd/install — tmux Code Quality Monitoring Repo Card](https://repo.x-cmd.io/tmux.svg)](https://x-cmd.com/install/tmux)
 
 ## Install
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 49,317 · **Forks**: 2,892 · **Open issues**: 4,196 · **Contributors**: 16
+- **Stars**: 49,376 · **Forks**: 2,905 · **Open issues**: 4,200 · **Contributors**: 16
 
 ## Totals (cumulative)
 
-- **Releases**: 45 · **Merged PRs**: 37 · **Open PRs**: 21 · **Closed issues**: 4171 · **Open issues**: 25 · **Commits**: 12135
+- **Releases**: 45 · **Merged PRs**: 37 · **Open PRs**: 26 · **Closed issues**: 4170 · **Open issues**: 30 · **Commits**: 12135
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 0 | 11 | 39 | 15 | 115 |
-| last60d | 2026-07-20 | 2 | 3 | 18 | 77 | 17 | 249 |
-| 90d | 2026-06-20 | 5 | 8 | 20 | 145 | 18 | 584 |
-| last180d | 2026-03-22 | 6 | 33 | 20 | 265 | 23 | 793 |
-| 360d | 2025-09-23 | 8 | 36 | 21 | 438 | 24 | 914 |
-| last720d | 2024-09-28 | 9 | 36 | 21 | 749 | 25 | 1856 |
+| 30d | 2026-08-21 | 1 | 0 | 16 | 34 | 19 | 84 |
+| last60d | 2026-07-22 | 2 | 3 | 22 | 73 | 20 | 199 |
+| 90d | 2026-06-22 | 5 | 8 | 25 | 141 | 23 | 530 |
+| last180d | 2026-03-24 | 6 | 33 | 25 | 263 | 28 | 786 |
+| 360d | 2025-09-25 | 8 | 36 | 26 | 437 | 29 | 914 |
+| last720d | 2024-09-30 | 9 | 36 | 26 | 745 | 30 | 1854 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for tmux lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:06:24Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:05:51Z._
