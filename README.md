@@ -30,9 +30,9 @@ Overall score: **6.2 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **SAST** (0/10) — no SAST tool detected
 
 ## Source
 
@@ -41,28 +41,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `3.8-rc2` (2026-08-17)
+- **Latest**: `3.8-rc3` (2026-08-17)
 - **Last commit**: 2026-09-30
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 49,577 · **Forks**: 2,917 · **Open issues**: 4,212 · **Contributors**: 19
+- **Stars**: 49,598 · **Forks**: 2,920 · **Open issues**: 4,213 · **Contributors**: 19
 
 ## Totals (cumulative)
 
-- **Releases**: 45 · **Merged PRs**: 40 · **Open PRs**: 25 · **Closed issues**: 4196 · **Open issues**: 16 · **Commits**: 12242
+- **Releases**: 45 · **Merged PRs**: 40 · **Open PRs**: 26 · **Closed issues**: 4196 · **Open issues**: 17 · **Commits**: 12243
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 1 | 3 | 16 | 35 | 6 | 142 |
-| last60d | 2026-08-01 | 2 | 5 | 18 | 86 | 6 | 271 |
-| 90d | 2026-07-02 | 2 | 10 | 24 | 138 | 9 | 524 |
-| last180d | 2026-04-03 | 6 | 36 | 24 | 277 | 14 | 875 |
-| 360d | 2025-10-05 | 8 | 39 | 25 | 461 | 15 | 1013 |
-| last720d | 2024-10-10 | 8 | 39 | 25 | 748 | 16 | 1909 |
+| 30d | 2026-09-01 | 1 | 3 | 17 | 33 | 7 | 144 |
+| last60d | 2026-08-02 | 2 | 5 | 19 | 86 | 7 | 273 |
+| 90d | 2026-07-03 | 2 | 10 | 25 | 136 | 10 | 526 |
+| last180d | 2026-04-04 | 6 | 36 | 25 | 277 | 15 | 877 |
+| 360d | 2025-10-06 | 8 | 39 | 26 | 458 | 16 | 1015 |
+| last720d | 2024-10-11 | 8 | 39 | 26 | 747 | 17 | 1907 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for tmux lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T06:38:40Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:52:48Z._
