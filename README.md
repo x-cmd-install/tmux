@@ -14,13 +14,13 @@ x install tmux
 
 ## Code insight
 
-Total: **118,716** lines of code across **453** files in the top 5 languages.
+Total: **119,225** lines of code across **460** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 86,277 | 9,355 | 13,075 | 200 |
-| Sh | 23,159 | 3,883 | 4,032 | 220 |
-| CHeader | 5,230 | 683 | 715 | 9 |
+| C | 86,385 | 9,361 | 13,071 | 200 |
+| Sh | 23,557 | 3,933 | 4,096 | 227 |
+| CHeader | 5,233 | 683 | 715 | 9 |
 | Bitbake | 1,686 | 2,083 | 565 | 23 |
 | Happy | 1,678 | 0 | 216 | 1 |
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.8` (2026-09-09)
-- **Last commit**: 2026-10-09
+- **Last commit**: 2026-10-13
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 49,905 · **Forks**: 2,943 · **Open issues**: 4,242 · **Contributors**: 20
+- **Stars**: 49,929 · **Forks**: 2,946 · **Open issues**: 4,244 · **Contributors**: 21
 
 ## Totals (cumulative)
 
-- **Releases**: 45 · **Merged PRs**: 40 · **Open PRs**: 25 · **Closed issues**: 4222 · **Open issues**: 20 · **Commits**: 12336
+- **Releases**: 45 · **Merged PRs**: 41 · **Open PRs**: 19 · **Closed issues**: 4229 · **Open issues**: 15 · **Commits**: 12373
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 0 | 3 | 18 | 44 | 13 | 196 |
-| last60d | 2026-08-13 | 2 | 3 | 20 | 91 | 14 | 320 |
-| 90d | 2026-07-14 | 2 | 6 | 24 | 134 | 15 | 462 |
-| last180d | 2026-04-15 | 6 | 35 | 24 | 287 | 18 | 967 |
-| 360d | 2025-10-17 | 8 | 39 | 25 | 479 | 19 | 1107 |
-| last720d | 2024-10-22 | 8 | 39 | 25 | 761 | 19 | 1986 |
+| 30d | 2026-09-13 | 0 | 4 | 12 | 50 | 8 | 233 |
+| last60d | 2026-08-14 | 2 | 4 | 14 | 97 | 9 | 357 |
+| 90d | 2026-07-15 | 2 | 7 | 18 | 140 | 10 | 499 |
+| last180d | 2026-04-16 | 6 | 36 | 18 | 293 | 13 | 1004 |
+| 360d | 2025-10-18 | 8 | 40 | 19 | 486 | 14 | 1144 |
+| last720d | 2024-10-23 | 8 | 40 | 19 | 768 | 14 | 2023 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for tmux lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261012.yml` · 2026-10-12T07:08:05Z._
+_Snapshot: `data/card/261013.yml` · 2026-10-13T07:57:37Z._
