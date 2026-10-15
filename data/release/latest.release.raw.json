@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 895926,
       "digest": "sha256:e79c699c7e949dccd0a4a125e17b8d1261e311b16979dbc8eb34542f3966d82e",
-      "download_count": 11270,
+      "download_count": 13023,
       "created_at": "2026-10-08T07:20:26Z",
       "updated_at": "2026-10-08T07:20:28Z",
       "browser_download_url": "https://github.com/tmux/tmux/releases/download/3.8/tmux-3.8.tar.gz"
@@ -78,7 +78,7 @@
   "body": "For a list of changes [please read the CHANGES file](https://raw.githubusercontent.com/tmux/tmux/3.8/CHANGES); for release notes [please see this issue](https://github.com/tmux/tmux/issues/5584)",
   "reactions": {
     "url": "https://api.github.com/repos/tmux/tmux/releases/385514904/reactions",
-    "total_count": 60,
+    "total_count": 61,
     "+1": 21,
     "-1": 0,
     "laugh": 0,
@@ -86,6 +86,6 @@
     "confused": 0,
     "heart": 15,
     "rocket": 7,
-    "eyes": 1
+    "eyes": 2
   }
 }
