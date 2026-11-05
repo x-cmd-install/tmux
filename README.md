@@ -30,9 +30,9 @@ Overall score: **6.2 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **SAST** (0/10) — no SAST tool detected
 - **Packaging** (-1/10) — packaging workflow not detected
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 50,144 · **Forks**: 2,992 · **Open issues**: 4,282 · **Contributors**: 26
+- **Stars**: 50,160 · **Forks**: 2,993 · **Open issues**: 4,285 · **Contributors**: 26
 
 ## Totals (cumulative)
 
-- **Releases**: 45 · **Merged PRs**: 48 · **Open PRs**: 22 · **Closed issues**: 4261 · **Open issues**: 21 · **Commits**: 12626
+- **Releases**: 45 · **Merged PRs**: 48 · **Open PRs**: 25 · **Closed issues**: 4261 · **Open issues**: 24 · **Commits**: 12626
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 7 | 14 | 47 | 13 | 267 |
-| last60d | 2026-09-05 | 1 | 11 | 18 | 91 | 15 | 484 |
-| 90d | 2026-08-06 | 2 | 12 | 18 | 141 | 15 | 611 |
-| last180d | 2026-05-08 | 6 | 39 | 21 | 308 | 19 | 1212 |
-| 360d | 2025-11-09 | 8 | 47 | 22 | 500 | 20 | 1352 |
-| last720d | 2024-11-14 | 8 | 47 | 22 | 778 | 20 | 2250 |
+| 30d | 2026-10-06 | 0 | 7 | 17 | 45 | 15 | 267 |
+| last60d | 2026-09-06 | 1 | 11 | 21 | 90 | 18 | 484 |
+| 90d | 2026-08-07 | 2 | 12 | 21 | 140 | 18 | 611 |
+| last180d | 2026-05-09 | 6 | 39 | 24 | 307 | 22 | 1212 |
+| 360d | 2025-11-10 | 8 | 47 | 25 | 500 | 23 | 1352 |
+| last720d | 2024-11-15 | 8 | 47 | 25 | 778 | 23 | 2250 |
 
 ## Release assets
 
@@ -98,4 +98,4 @@ Install metadata for tmux lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:31:52Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:51:49Z._
