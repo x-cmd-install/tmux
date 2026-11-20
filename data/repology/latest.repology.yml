@@ -1,22 +1,114 @@
-- repo: aixtoolbox
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: tmux
+  binnames:
+    - tmux
   visiblename: tmux
-  version: 3.6a
-  origversion: 3.6a-1
+  version: 3.3a
+  origversion: 3.3a-3
   status: outdated
-  summary: A terminal multiplexer
-  licenses:
-    - ISC
+  maintainers:
+    - rfrancoise@debian.org
   categories:
-    - Development/Languages
-- repo: gnuguix
+    - admin
+- repo: raspbian_stable
+  subrepo: main
+  srcname: tmux
+  binnames:
+    - tmux
+  visiblename: tmux
+  version: 3.5a
+  origversion: 3.5a-3
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - admin
+- repo: raspbian_testing
+  subrepo: main
+  srcname: tmux
+  binnames:
+    - tmux
+  visiblename: tmux
+  version: "3.8"
+  origversion: 3.8-1
+  status: newest
+  maintainers:
+    - seb@debian.org
+  categories:
+    - admin
+- repo: apertis_v2025
+  subrepo: v2025/sdk
+  srcname: tmux
+  binnames:
+    - tmux
+  visiblename: tmux
+  version: 3.3a
+  origversion: 3.3a-3+apertis1
+  status: outdated
+  maintainers:
+    - rfrancoise@debian.org
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: tmux
+  binnames:
+    - tmux
+  visiblename: tmux
+  version: 3.5a
+  origversion: 3.5a-3
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - admin
+- repo: adelie_current
+  subrepo: user
   srcname: tmux
   binname: tmux
+  visiblename: tmux
+  version: 3.5a
+  origversion: 3.5a-r0
+  status: outdated
+  summary: Tool to control multiple terminals from a single terminal
+  maintainers:
+    - me@zv.io
+  licenses:
+    - MIT
+- repo: adelie_current
+  subrepo: user
+  srcname: tmux
+  binname: tmux-dbg
+  visiblename: tmux-dbg
+  version: 3.5a
+  origversion: 3.5a-r0
+  status: outdated
+  summary: Tool to control multiple terminals from a single terminal (debug symbols)
+  maintainers:
+    - me@zv.io
+  licenses:
+    - MIT
+- repo: adelie_current
+  subrepo: user
+  srcname: tmux
+  binname: tmux-doc
+  visiblename: tmux-doc
+  version: 3.5a
+  origversion: 3.5a-r0
+  status: outdated
+  summary: Tool to control multiple terminals from a single terminal (documentation)
+  maintainers:
+    - me@zv.io
+  licenses:
+    - MIT
+- repo: aerynos
+  srcname: tmux
   visiblename: tmux
   version: "3.8"
   origversion: null
   status: newest
   summary: Terminal multiplexer
+  licenses:
+    - ISC
 - repo: aix_osp
   srcname: tmux
   visiblename: tmux
@@ -94,99 +186,17 @@
     - ISC
   categories:
     - Development/Languages
-- repo: nix_stable_25_05
-  srcname: tmux
-  visiblename: tmux
-  version: 3.5a
-  origversion: null
-  status: outdated
-  summary: Terminal multiplexer
-  maintainers:
-    - jawr@gmx.de
-    - fpletz@fnordicwalking.de
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_25_11
+- repo: aixtoolbox
   srcname: tmux
   visiblename: tmux
   version: 3.6a
-  origversion: null
+  origversion: 3.6a-1
   status: outdated
-  summary: Terminal multiplexer
-  maintainers:
-    - fpletz@fnordicwalking.de
-  licenses:
-    - BSD-3-Clause
-- repo: apertis_v2027
-  subrepo: v2027dev1/development
-  srcname: tmux
-  binnames:
-    - tmux
-  visiblename: tmux
-  version: 3.5a
-  origversion: 3.5a-3+apertis1
-  status: outdated
-  maintainers:
-    - seb@debian.org
-- repo: openindiana
-  subrepo: hipster
-  srcname: tmux
-  binname: terminal/tmux
-  visiblename: tmux
-  version: 3.7b
-  origversion: null
-  status: legacy
-  summary: tmux terminal multiplexer
-  categories:
-    - Applications/System Utilities
-- repo: adelie_current
-  subrepo: user
-  srcname: tmux
-  binname: tmux
-  visiblename: tmux
-  version: 3.5a
-  origversion: 3.5a-r0
-  status: outdated
-  summary: Tool to control multiple terminals from a single terminal
-  maintainers:
-    - me@zv.io
-  licenses:
-    - MIT
-- repo: adelie_current
-  subrepo: user
-  srcname: tmux
-  binname: tmux-dbg
-  visiblename: tmux-dbg
-  version: 3.5a
-  origversion: 3.5a-r0
-  status: outdated
-  summary: Tool to control multiple terminals from a single terminal (debug symbols)
-  maintainers:
-    - me@zv.io
-  licenses:
-    - MIT
-- repo: adelie_current
-  subrepo: user
-  srcname: tmux
-  binname: tmux-doc
-  visiblename: tmux-doc
-  version: 3.5a
-  origversion: 3.5a-r0
-  status: outdated
-  summary: Tool to control multiple terminals from a single terminal (documentation)
-  maintainers:
-    - me@zv.io
-  licenses:
-    - MIT
-- repo: aerynos
-  srcname: tmux
-  visiblename: tmux
-  version: "3.8"
-  origversion: null
-  status: newest
-  summary: Terminal multiplexer
+  summary: A terminal multiplexer
   licenses:
     - ISC
+  categories:
+    - Development/Languages
 - repo: almalinux_8
   subrepo: BaseOS
   srcname: tmux
@@ -232,17 +242,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - ISC
-- repo: arch
-  subrepo: extra
-  srcname: tmux
-  binname: tmux
-  visiblename: tmux
-  version: "3.8"
-  origversion: 3.8-1
-  status: newest
-  summary: Terminal multiplexer
-  licenses:
-    - BSD
 - repo: alpine_3_17
   subrepo: main
   srcname: tmux
@@ -360,6 +359,20 @@
     - ncopa@alpinelinux.org
   licenses:
     - ISC
+- repo: mageia_10
+  subrepo: core/release
+  srcname: tmux
+  binnames:
+    - tmux
+  visiblename: tmux
+  version: 3.6a
+  origversion: 3.6a-1.mga10
+  status: legacy
+  summary: Terminal multiplexer
+  licenses:
+    - BSD
+  categories:
+    - Terminals
 - repo: alpine_3_22
   subrepo: main
   srcname: tmux
@@ -373,6 +386,17 @@
     - cielesti@protonmail.com
   licenses:
     - ISC
+- repo: apertis_v2026
+  subrepo: v2026/development
+  srcname: tmux
+  binnames:
+    - tmux
+  visiblename: tmux
+  version: 3.5a
+  origversion: 3.5a-3+apertis1
+  status: outdated
+  maintainers:
+    - seb@debian.org
 - repo: alpine_3_22
   subrepo: main
   srcname: tmux
@@ -386,17 +410,6 @@
     - cielesti@protonmail.com
   licenses:
     - ISC
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: tmux
-  binname: tmux
-  visiblename: tmux
-  version: "3.8"
-  origversion: 3.8-1
-  status: newest
-  summary: Terminal multiplexer
-  licenses:
-    - BSD
 - repo: alpine_3_23
   subrepo: main
   srcname: tmux
@@ -575,19 +588,8 @@
   status: outdated
   maintainers:
     - rfrancoise@debian.org
-- repo: apertis_v2025
-  subrepo: v2025/sdk
-  srcname: tmux
-  binnames:
-    - tmux
-  visiblename: tmux
-  version: 3.3a
-  origversion: 3.3a-3+apertis1
-  status: outdated
-  maintainers:
-    - rfrancoise@debian.org
-- repo: apertis_v2026
-  subrepo: v2026/development
+- repo: apertis_v2027
+  subrepo: v2027dev1/development
   srcname: tmux
   binnames:
     - tmux
@@ -597,6 +599,17 @@
   status: outdated
   maintainers:
     - seb@debian.org
+- repo: arch
+  subrepo: extra
+  srcname: tmux
+  binname: tmux
+  visiblename: tmux
+  version: "3.8"
+  origversion: 3.8-1
+  status: newest
+  summary: Terminal multiplexer
+  licenses:
+    - BSD
 - repo: aur
   srcname: tmux-git
   binname: tmux-git
@@ -784,6 +797,15 @@
     - ISC AND BSD-2-Clause AND BSD-3-Clause AND SSH-short AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
+- repo: kiss_community
+  subrepo: community
+  srcname: tmux
+  visiblename: tmux
+  version: "3.8"
+  origversion: null
+  status: newest
+  maintainers:
+    - owen@owenrafferty.com
 - repo: centos_stream_10
   subrepo: BaseOS
   srcname: tmux
@@ -982,6 +1004,17 @@
     - rfrancoise@debian.org
   categories:
     - admin
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: tmux
+  binname: tmux
+  visiblename: tmux
+  version: "3.8"
+  origversion: 3.8-1
+  status: newest
+  summary: Terminal multiplexer
+  licenses:
+    - BSD
 - repo: debian_12_backports
   subrepo: bookworm-backports/main
   srcname: tmux
@@ -1008,17 +1041,6 @@
     - seb@debian.org
   categories:
     - admin
-- repo: msys2_msys2
-  subrepo: x86_64
-  srcname: tmux
-  binname: tmux
-  visiblename: tmux
-  version: "3.8"
-  origversion: 3.8-1
-  status: newest
-  summary: A terminal multiplexer
-  licenses:
-    - spdx:ISC
 - repo: debian_13_backports
   subrepo: trixie-backports/main
   srcname: tmux
@@ -1051,9 +1073,9 @@
   binnames:
     - tmux
   visiblename: tmux
-  version: 3.7c
-  origversion: 3.7c-1
-  status: outdated
+  version: "3.8"
+  origversion: 3.8-1
+  status: newest
   maintainers:
     - seb@debian.org
   categories:
@@ -1236,18 +1258,6 @@
     - ISC AND BSD-2-Clause AND BSD-3-Clause AND SSH-short AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
-- repo: nix_stable_24_05
-  srcname: tmux
-  visiblename: tmux
-  version: "3.4"
-  origversion: null
-  status: outdated
-  summary: Terminal multiplexer
-  maintainers:
-    - jawr@gmx.de
-    - fpletz@fnordicwalking.de
-  licenses:
-    - BSD-3-Clause
 - repo: fedora_40
   subrepo: release
   srcname: tmux
@@ -1404,6 +1414,19 @@
     - ISC AND BSD-2-Clause AND BSD-3-Clause AND SSH-short AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: tmux
+  binnames:
+    - tmux
+  visiblename: tmux
+  version: 3.1c
+  origversion: 3.1c-1+deb11u1
+  status: outdated
+  maintainers:
+    - rfrancoise@debian.org
+  categories:
+    - admin
 - repo: fedora_rawhide
   subrepo: development
   srcname: tmux
@@ -1500,6 +1523,14 @@
   version: 3.6a
   origversion: null
   status: outdated
+- repo: gnuguix
+  srcname: tmux
+  binname: tmux
+  visiblename: tmux
+  version: "3.8"
+  origversion: null
+  status: newest
+  summary: Terminal multiplexer
 - repo: gobolinux
   srcname: Tmux
   visiblename: Tmux
@@ -1557,27 +1588,6 @@
     - seb@debian.org
   categories:
     - admin
-- repo: kiss_community
-  subrepo: community
-  srcname: tmux
-  visiblename: tmux
-  version: "3.8"
-  origversion: null
-  status: newest
-  maintainers:
-    - owen@owenrafferty.com
-- repo: nix_stable_24_11
-  srcname: tmux
-  visiblename: tmux
-  version: 3.5a
-  origversion: null
-  status: outdated
-  summary: Terminal multiplexer
-  maintainers:
-    - jawr@gmx.de
-    - fpletz@fnordicwalking.de
-  licenses:
-    - BSD-3-Clause
 - repo: liguros_stable
   srcname: app-misc/tmux
   visiblename: app-misc/tmux
@@ -1698,20 +1708,6 @@
   categories:
     - sysutils
 - repo: mageia_10
-  subrepo: core/release
-  srcname: tmux
-  binnames:
-    - tmux
-  visiblename: tmux
-  version: 3.6a
-  origversion: 3.6a-1.mga10
-  status: legacy
-  summary: Terminal multiplexer
-  licenses:
-    - BSD
-  categories:
-    - Terminals
-- repo: mageia_10
   subrepo: core/updates
   srcname: tmux
   binnames:
@@ -1761,6 +1757,64 @@
   summary: Terminal multiplexer
   licenses:
     - BSD
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: tmux
+  binname: tmux
+  visiblename: tmux
+  version: "3.8"
+  origversion: 3.8-1
+  status: newest
+  summary: A terminal multiplexer
+  licenses:
+    - spdx:ISC
+- repo: nix_stable_24_05
+  srcname: tmux
+  visiblename: tmux
+  version: "3.4"
+  origversion: null
+  status: outdated
+  summary: Terminal multiplexer
+  maintainers:
+    - jawr@gmx.de
+    - fpletz@fnordicwalking.de
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_24_11
+  srcname: tmux
+  visiblename: tmux
+  version: 3.5a
+  origversion: null
+  status: outdated
+  summary: Terminal multiplexer
+  maintainers:
+    - jawr@gmx.de
+    - fpletz@fnordicwalking.de
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_05
+  srcname: tmux
+  visiblename: tmux
+  version: 3.5a
+  origversion: null
+  status: outdated
+  summary: Terminal multiplexer
+  maintainers:
+    - jawr@gmx.de
+    - fpletz@fnordicwalking.de
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_11
+  srcname: tmux
+  visiblename: tmux
+  version: 3.6a
+  origversion: null
+  status: outdated
+  summary: Terminal multiplexer
+  maintainers:
+    - fpletz@fnordicwalking.de
+  licenses:
+    - BSD-3-Clause
 - repo: nix_stable_26_05
   srcname: tmux
   visiblename: tmux
@@ -1936,6 +1990,17 @@
   binname: terminal/tmux
   visiblename: tmux
   version: 3.7a
+  origversion: null
+  status: legacy
+  summary: tmux terminal multiplexer
+  categories:
+    - Applications/System Utilities
+- repo: openindiana
+  subrepo: hipster
+  srcname: tmux
+  binname: terminal/tmux
+  visiblename: tmux
+  version: 3.7b
   origversion: null
   status: legacy
   summary: tmux terminal multiplexer
@@ -2328,71 +2393,6 @@
     - rfrancoise@debian.org
   categories:
     - admin
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: tmux
-  binnames:
-    - tmux
-  visiblename: tmux
-  version: 3.1c
-  origversion: 3.1c-1+deb11u1
-  status: outdated
-  maintainers:
-    - rfrancoise@debian.org
-  categories:
-    - admin
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: tmux
-  binnames:
-    - tmux
-  visiblename: tmux
-  version: 3.5a
-  origversion: 3.5a-3
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - admin
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: tmux
-  binnames:
-    - tmux
-  visiblename: tmux
-  version: 3.3a
-  origversion: 3.3a-3
-  status: outdated
-  maintainers:
-    - rfrancoise@debian.org
-  categories:
-    - admin
-- repo: raspbian_stable
-  subrepo: main
-  srcname: tmux
-  binnames:
-    - tmux
-  visiblename: tmux
-  version: 3.5a
-  origversion: 3.5a-3
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - admin
-- repo: raspbian_testing
-  subrepo: main
-  srcname: tmux
-  binnames:
-    - tmux
-  visiblename: tmux
-  version: 3.7c
-  origversion: 3.7c-1
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - admin
 - repo: ravenports
   srcname: tmux
   binname: tmux
@@ -2660,19 +2660,6 @@
   categories:
     - admin
 - repo: ubuntu_18_04
-  subrepo: bionic/main
-  srcname: tmux
-  binnames:
-    - tmux
-  visiblename: tmux
-  version: "2.6"
-  origversion: 2.6-3
-  status: outdated
-  maintainers:
-    - rfrancoise@debian.org
-  categories:
-    - admin
-- repo: ubuntu_18_04
   subrepo: bionic-updates/main
   srcname: tmux
   binnames:
@@ -2683,6 +2670,19 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - admin
+- repo: ubuntu_18_04
+  subrepo: bionic/main
+  srcname: tmux
+  binnames:
+    - tmux
+  visiblename: tmux
+  version: "2.6"
+  origversion: 2.6-3
+  status: outdated
+  maintainers:
+    - rfrancoise@debian.org
   categories:
     - admin
 - repo: ubuntu_22_04
@@ -2764,19 +2764,6 @@
   categories:
     - admin
 - repo: ubuntu_26_04
-  subrepo: resolute/main
-  srcname: tmux
-  binnames:
-    - tmux
-  visiblename: tmux
-  version: 3.6a
-  origversion: 3.6a-2
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - admin
-- repo: ubuntu_26_04
   subrepo: resolute-updates/main
   srcname: tmux
   binnames:
@@ -2787,6 +2774,19 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - admin
+- repo: ubuntu_26_04
+  subrepo: resolute/main
+  srcname: tmux
+  binnames:
+    - tmux
+  visiblename: tmux
+  version: 3.6a
+  origversion: 3.6a-2
+  status: outdated
+  maintainers:
+    - seb@debian.org
   categories:
     - admin
 - repo: ubuntu_26_10
@@ -2860,12 +2860,48 @@
   summary: terminal multiplexer
   licenses:
     - ISC license
-- repo: aix_osp
+- repo: ubuntu_20_04
+  subrepo: focal-updates/main
+  srcname: tmux
+  binnames:
+    - tmux
+  visiblename: tmux
+  version: 3.0a
+  origversion: 3.0a-2ubuntu0.4
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - admin
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal/main
+  srcname: tmux
+  binnames:
+    - tmux
+  visiblename: tmux
+  version: 3.0a
+  origversion: 3.0a-2
+  status: outdated
+  maintainers:
+    - rfrancoise@debian.org
+  categories:
+    - admin
+  vulnerable: true
+- repo: rosa_13
+  subrepo: main/release
   srcname: tmux
   visiblename: tmux
-  version: "2.9"
-  origversion: 2.9-1
-  status: outdated
+  version: "3.1"
+  origversion: 3.1-1
+  status: legacy
+  summary: A terminal multiplexer
+  maintainers:
+    - alexander@mezon.ru
+  licenses:
+    - ISC and BSD
+  categories:
+    - Terminals
   vulnerable: true
 - repo: aix_osp
   srcname: tmux
@@ -2873,6 +2909,13 @@
   version: "1.4"
   origversion: 1.4-1
   status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: tmux
+  visiblename: tmux
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
   vulnerable: true
 - repo: distri
   srcname: tmux
@@ -2920,47 +2963,4 @@
     - ISC and BSD
   categories:
     - Terminals
-  vulnerable: true
-- repo: rosa_13
-  subrepo: main/release
-  srcname: tmux
-  visiblename: tmux
-  version: "3.1"
-  origversion: 3.1-1
-  status: legacy
-  summary: A terminal multiplexer
-  maintainers:
-    - alexander@mezon.ru
-  licenses:
-    - ISC and BSD
-  categories:
-    - Terminals
-  vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal-updates/main
-  srcname: tmux
-  binnames:
-    - tmux
-  visiblename: tmux
-  version: 3.0a
-  origversion: 3.0a-2ubuntu0.4
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - admin
-  vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal/main
-  srcname: tmux
-  binnames:
-    - tmux
-  visiblename: tmux
-  version: 3.0a
-  origversion: 3.0a-2
-  status: outdated
-  maintainers:
-    - rfrancoise@debian.org
-  categories:
-    - admin
   vulnerable: true
