@@ -2,12 +2,12 @@ about:
   description: "tmux source code"
   license: ISC
   homepage: 
-  head: a6ce3d0
+  head: 3876d23
   archived: false
   latestVersion: "3.8"
   latestRelease: "3.8"
   latestPrerelease: ""
-  collectedAt: 2026-11-27T10:05:43Z
+  collectedAt: 2026-11-28T09:08:47Z
 timeline:
   created: 2015-06-03
   lastCommit: 2026-11-27
@@ -15,16 +15,16 @@ timeline:
   lastRelease: 2026-09-09
   lastPrerelease: 
 popularity:
-  star: 50614
-  watcher: 486
-  fork: 3038
+  star: 50602
+  watcher: 483
+  fork: 3044
   release: 45
   contributor: 26
-  pullRequest: 1391
-  issue: 4313
+  pullRequest: 1392
+  issue: 4315
 language:
-  C: 3250380
-  Shell: 1564131
+  C: 3262420
+  Shell: 1589532
   Roff: 234696
   Yacc: 39832
   Python: 32378
@@ -34,79 +34,79 @@ language:
   Awk: 8608
   Perl: 1660
   NASL: 285
-totalBytes: 5183376
+totalBytes: 5220817
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
-    mergedPR: 2
-    openPR: 10
-    closedIssue: 34
-    openIssue: 7
-    commit: 229
+    mergedPR: 6
+    openPR: 6
+    closedIssue: 35
+    openIssue: 6
+    commit: 265
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
-    mergedPR: 9
-    openPR: 15
-    closedIssue: 94
-    openIssue: 9
-    commit: 583
-  last90d:
-    since: 2026-08-29
-    release: 1
     mergedPR: 13
-    openPR: 17
-    closedIssue: 135
-    openIssue: 10
-    commit: 761
+    openPR: 11
+    closedIssue: 96
+    openIssue: 8
+    commit: 619
+  last90d:
+    since: 2026-08-30
+    release: 1
+    mergedPR: 17
+    openPR: 13
+    closedIssue: 137
+    openIssue: 9
+    commit: 797
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 5
-    mergedPR: 36
-    openPR: 18
-    closedIssue: 314
-    openIssue: 13
-    commit: 1382
+    mergedPR: 40
+    openPR: 14
+    closedIssue: 315
+    openIssue: 12
+    commit: 1418
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 7
-    mergedPR: 49
-    openPR: 19
-    closedIssue: 500
-    openIssue: 14
-    commit: 1552
+    mergedPR: 53
+    openPR: 15
+    closedIssue: 498
+    openIssue: 13
+    commit: 1588
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 8
-    mergedPR: 49
-    openPR: 19
-    closedIssue: 782
-    openIssue: 14
-    commit: 2429
+    mergedPR: 53
+    openPR: 15
+    closedIssue: 785
+    openIssue: 13
+    commit: 2465
 total:
   release: 45
-  mergedPR: 50
-  openPR: 19
-  closedIssue: 4298
-  openIssue: 15
-  commit: 12853
+  mergedPR: 54
+  openPR: 15
+  closedIssue: 4301
+  openIssue: 14
+  commit: 12889
 ---
 path: /home/runner/.x-repo/github.com/tmux/tmux
-collectedAt: 2026-11-27T10:05:52Z
+collectedAt: 2026-11-28T09:08:54Z
 loc:
   C:
-    code: 94595
-    comments: 10141
-    blanks: 13945
+    code: 94965
+    comments: 10166
+    blanks: 13972
     files: 210
   Sh:
-    code: 37274
-    comments: 5367
-    blanks: 6132
-    files: 393
+    code: 37831
+    comments: 5402
+    blanks: 6214
+    files: 398
   CHeader:
-    code: 5545
+    code: 5550
     comments: 727
     blanks: 744
     files: 10
@@ -156,10 +156,10 @@ loc:
     blanks: 117
     files: 6
 total:
-  code: 142471
-  comments: 19829
-  blanks: 21936
-  files: 661
+  code: 143403
+  comments: 19889
+  blanks: 22045
+  files: 666
 ---
 date: "2026-11-23"
 repo:
@@ -267,4 +267,4 @@ checks:
     details:
       - 'Warn: branch protection not enabled for branch ''master'''
 ---
-{"id":385514904,"author":{"login":"nicm","id":304243,"node_id":"MDQ6VXNlcjMwNDI0Mw==","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOAjIUe84W-n2Y","tag_name":"3.8","target_commitish":"master","name":"tmux 3.8","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-08T07:14:56Z","updated_at":"2026-10-08T07:20:35Z","published_at":"2026-09-09T12:55:58Z","assets":[{"id":621072696,"node_id":"RA_kwDOAjIUe84lBNE4","name":"tmux-3.8.tar.gz","label":null,"uploader":{"login":"nicm","id":304243,"node_id":"MDQ6VXNlcjMwNDI0Mw==","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":895926,"digest":"sha256:e79c699c7e949dccd0a4a125e17b8d1261e311b16979dbc8eb34542f3966d82e","download_count":104055,"created_at":"2026-10-08T07:20:26Z","updated_at":"2026-10-08T07:20:28Z"}],"body":"For a list of changes [please read the CHANGES file](https://raw.githubusercontent.com/tmux/tmux/3.8/CHANGES); for release notes [please see this issue](https://github.com/tmux/tmux/issues/5584)","reactions":{"total_count":72,"+1":26,"-1":0,"laugh":0,"hooray":18,"confused":0,"heart":17,"rocket":9,"eyes":2}}
+{"id":385514904,"author":{"login":"nicm","id":304243,"node_id":"MDQ6VXNlcjMwNDI0Mw==","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOAjIUe84W-n2Y","tag_name":"3.8","target_commitish":"master","name":"tmux 3.8","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-08T07:14:56Z","updated_at":"2026-10-08T07:20:35Z","published_at":"2026-09-09T12:55:58Z","assets":[{"id":621072696,"node_id":"RA_kwDOAjIUe84lBNE4","name":"tmux-3.8.tar.gz","label":null,"uploader":{"login":"nicm","id":304243,"node_id":"MDQ6VXNlcjMwNDI0Mw==","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":895926,"digest":"sha256:e79c699c7e949dccd0a4a125e17b8d1261e311b16979dbc8eb34542f3966d82e","download_count":107333,"created_at":"2026-10-08T07:20:26Z","updated_at":"2026-10-08T07:20:28Z"}],"body":"For a list of changes [please read the CHANGES file](https://raw.githubusercontent.com/tmux/tmux/3.8/CHANGES); for release notes [please see this issue](https://github.com/tmux/tmux/issues/5584)","reactions":{"total_count":72,"+1":26,"-1":0,"laugh":0,"hooray":18,"confused":0,"heart":17,"rocket":9,"eyes":2}}
